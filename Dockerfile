@@ -6,3 +6,5 @@ RUN apk add --no-cache ca-certificates curl unzip \
  && chmod +x /configure.sh
 
 CMD /configure.sh
+
+EXPOSE 443
